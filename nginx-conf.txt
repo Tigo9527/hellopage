@@ -1,0 +1,4 @@
+        location /rpc-proxy-s {
+                proxy_pass https://polygon-rpc.com;
+                proxy_ssl_server_name on;
+        }
